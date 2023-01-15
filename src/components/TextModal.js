@@ -10,8 +10,8 @@ const TextModal = () => {
             </div>
             <div className="modal-line line-3">
                 I am a Software Developer, specializing in{" "}
-                <strong>Full Stack Web Development</strong>, mainly utilizing
-                JavaScript and Python.
+                <strong>Full Stack Web Development</strong>, mainly utilizing{" "}
+                <strong>JavaScript</strong> and <strong>Python</strong>.
             </div>
             <div className="modal-line line-4">
                 That is not all though. I have a very diverse skill-set and have
@@ -20,8 +20,8 @@ const TextModal = () => {
                 and BI Engineering.
             </div>
             <div className="modal-line line-5">
-                <button className="btn">Projects</button>
-                <button className="btn">Hire me</button>
+                <div className="btn">Projects</div>
+                <div className="btn">Hire me</div>
             </div>
         </div>
     );
