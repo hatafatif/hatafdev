@@ -1,16 +1,11 @@
-import React from "react";
 import Navbar from "./Navbar";
-import Footer from "./Footer";
-import "../styles/global.css";
+import React from "react";
 
 const Layout = ({ children }) => {
-
-    
     return (
         <div className="layout">
-                <Navbar />
-                {children}
-                <Footer />
+            <Navbar />
+            {children}
         </div>
     );
 };

@@ -1,13 +1,16 @@
 import React from "react";
-import { Link } from "gatsby";
 
 const Navbar = () => {
     return (
         <nav>
-            <Link to="/"> Home </Link>
-            <Link to="/portfolio"> Project Portfolio </Link>
-            <Link to="/skills"> Skills </Link>
-            <Link to="/about"> About Me </Link>
+            <div className="nav-item nav-left">
+                <span className="logo-part logo-blue">{"<"}</span>
+                <span className="logo-part logo-red">{"/"}</span>
+                hataf
+                <span className="logo-part logo-blue">{">"}</span>
+            </div>
+            <div className="nav-item nav-mid"></div>
+            <div className="nav-item nav-right"></div>
         </nav>
     );
 };
