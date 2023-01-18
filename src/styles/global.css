@@ -87,6 +87,7 @@ nav {
     align-items: center;
     width: 70%;
     max-width: 900px;
+    width: clamp(340px,70%,900px);
     border-radius: 1rem;
     box-shadow: 4px 4px 10px black;
 }
@@ -101,7 +102,7 @@ nav {
     font-weight: 300;
 }
 .line-2 {
-    font-size: 6em;
+    font-size: clamp(3.5em,8vw,6em);
     font-weight: 900;
     margin-bottom: 2rem;
 }
@@ -109,10 +110,12 @@ nav {
 .line-3 {
     margin: 2rem 0;
     padding: 0 1em;
-    font-size: 1.3em;
+    font-size: clamp(1em,2vw,1.3em);
+    
 }
 .line-4 {
     margin: 2rem 0;
+    font-size: clamp(0.8em,1.5vw,1em);
 }
 .line-5 {
     margin: 2rem 0;

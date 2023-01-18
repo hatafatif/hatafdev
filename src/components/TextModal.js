@@ -14,8 +14,8 @@ const TextModal = () => {
                 <strong>JavaScript</strong> and <strong>Python</strong>.
             </div>
             <div className="modal-line line-4">
-                That is not all though. I have a very diverse skill-set and have
-                worked with a number of different domains, including but not
+                I also have a very diverse skill-set from
+                working in a huge number of different domains, including but not
                 limited to Desktop and Mobile App Development, Data Analytics
                 and BI Engineering.
             </div>
